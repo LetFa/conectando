@@ -1,0 +1,22 @@
+@media (max-width: 565px){
+    header{
+        margin-bottom: 1rem;
+        padding: 30px;
+    }
+    .links {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 830px){
+    .banner{
+        background-position: center;
+     }
+     .texto-principal{
+        padding-top: 250px;
+     }
+    
+}

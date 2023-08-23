@@ -1,0 +1,99 @@
+/*header*/
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.10);
+    flex-wrap: wrap;
+    gap: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+
+.links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.curso a{
+    color: #379936;
+    border: 1px solid #379936;
+    padding: 10px;
+    border-radius: 4px;
+}
+.curso a:hover{
+  background-color: #379936;
+  border: 1px solid #379936;
+  color: white;
+  transition: 0.5s;
+}
+
+/*main*/
+.banner{
+   background-image: url("../img/banner.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   height: 100vh;
+   padding: 20px;
+   align-items:center;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 20px;
+}
+
+.texto-principal{
+    width: 100%;
+    max-width: 550px;
+}
+
+.texto-principal h1{
+    color: white;
+    font-size: 35px;
+ 
+}
+.texto-principal p{
+    color: white;
+    font-size: 22px;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+.btn-inscricao{
+    background-color: #C8191B;
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 50px;
+    font-weight:500;
+    transition: 0.5s;
+    font-size: 16px;
+}
+.btn-inscricao:hover{
+    background-color: #fff;
+    color: #C8191B;
+    font-weight: 500;
+}
